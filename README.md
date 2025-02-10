@@ -1,8 +1,9 @@
-# Configure-AD
-
+<h1>#Active Directory Infrastructure Set Up 
 
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+  
+![download (1)](https://github.com/user-attachments/assets/07458653-d995-4134-98ce-f9a2854ea0eb)
+
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
