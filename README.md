@@ -114,7 +114,7 @@ STEP 3: Once done configure the IP address setting in the NIC to 'STATIC'. The i
 
 
 
-
+<p>Congratulations on setting up the infrastructure to run Active Directory this guide has been completed</p>
 
 
 
