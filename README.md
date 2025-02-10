@@ -6,15 +6,16 @@
 
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Windows Powershell 86x
+- Windows Firewall
+- DNS Server IP configuration
+- Network Interface Card configuration
 
 <h2>Operating Systems Used </h2>
 
@@ -23,10 +24,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create 2 VM in azure with different images (Operating Systems)
+- Next configure the IP settings of AD to be "STATIC"
+- Next you will configure the windows firewall of Active Directory as off
+- Copy AD private IP address and connect it with Client1 windows computer by going to the NIC>DNS SERVER
+- Check connectivity with Powershell with commands 
 
 <h2>Deployment and Configuration Steps</h2>
 
